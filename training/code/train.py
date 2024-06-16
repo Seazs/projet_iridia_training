@@ -4,9 +4,9 @@ CUDA_LAUNCH_BLOCKING=1
 
 
 #load model
-model = YOLO('./runs/detect/train6/weights/best.pt')
+model = YOLO('yolov8n.pt')
 model.info()  # display info
 
 
 
-results = model.train(data='./code/data.yaml', epochs=300, batch=8)
+results = model.train(data='./code/data.yaml', epochs=500, batch=8)

@@ -4,11 +4,11 @@ val: ../valid/images
 test: ../test/images
 
 nc: 1
-names: ['door']
+names: ['doors']
 
 roboflow:
   workspace: doordetection-qj6n0
-  project: door_passing_detections
+  project: fisheye-camera-door-detection
   version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/doordetection-qj6n0/door_passing_detections/dataset/1
+  url: https://universe.roboflow.com/doordetection-qj6n0/fisheye-camera-door-detection/dataset/1
